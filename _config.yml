@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: http://jpyean.github.io
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: 包夹也单打
+subtitle: "码了个币"
+description: "jpjy的个人博客"
+keywords: 包夹也单打, Jpjy
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -16,12 +16,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: Jpjy
+organization: www.bibicar.cn
+organization_url: http://www.bibicar.cn
+github_username: jpyean
+location: Shenzhen, China
+email: zhongjipiao@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -37,7 +37,7 @@ navs:
 
   -
     href: /wiki/
-    label: 维基
+    label: baidu
 
   -
     href: /links/
@@ -78,7 +78,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: jpyean/jpyean.github.io
 
 # ---------------- #
 #      Comments    #
@@ -89,14 +89,14 @@ comments_provider: gitment
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: mzlogin
+    username: jpyean
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
+    owner: jpyean
+    repo: gitment
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 6670df4e29418b5fbf52
+        client_secret: 5a01674dc631e2bb6f42863a617898f64d881e63
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
 
@@ -104,4 +104,4 @@ lazy_load_disqus : true
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id: UA-104628955-1

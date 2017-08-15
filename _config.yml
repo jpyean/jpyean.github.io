@@ -98,7 +98,7 @@ gitment:
         client_id: 6670df4e29418b5fbf52
         client_secret: 5a01674dc631e2bb6f42863a617898f64d881e63
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
+lazy_load_disqus : false
 
 # ---------------- #
 #    Analytics     #
